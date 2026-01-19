@@ -32,6 +32,64 @@
    <div class="md:hidden"><img src="./assets/hamburger-menu.png" alt="hamburger"></div>
   </div>
 </header>
+<main>
+    <!--! first hero section section  -->
+  <section class="w-full h-screen">
+  <div class="relative w-full h-full 
+              bg-[url('./assets/hero-bg.png')] 
+              bg-cover bg-center bg-no-repeat 
+              flex items-center justify-center">
+
+  
+    <!-- Center Content -->
+    <div class="flex flex-col items-center text-center z-10">
+
+      <!-- Circle -->
+      <div class="relative w-48 h-48 md:w-56 md:h-56 rounded-full 
+                  flex items-center justify-center
+                  bg-[url('./assets/hero-circle.png')] 
+                  bg-cover bg-center shadow-2xl">
+
+        <!-- Microphone -->
+        <img src="./assets/microphone.png" 
+             class="w-16 md:w-20"
+             alt="microphone">
+
+        <!-- NEW Badge -->
+        <span class="absolute top-2 right-2  bg-green-400 text-black text-xs px-2 py-1 rounded-full font-semibold animate-bounce">
+          NEW
+        </span>
+      </div>
+
+      <!-- Title -->
+      <h1 class="text-white text-3xl md:text-4xl font-bold mt-6">
+        TechWave
+      </h1>
+
+      <!-- Subtitle -->
+      <p class="text-gray-300 text-sm md:text-base mt-2 max-w-md">
+        Your daily dose of tech insights, productivity hacks, and personal growth
+      </p>
+
+      <!-- Buttons -->
+      <div class="flex gap-4 mt-6">
+        <button class="px-5 py-2 rounded-full 
+                       bg-linear-to-tr from-pink-500 to-yellow-400 
+                       text-black font-semibold text-sm flex items-center gap-2">
+          <img class="w-5 h-5" src="./assets/headphone.png" alt=""> Listen on Spotify
+        </button>
+
+        <button class="px-5 py-2 rounded-full 
+                       border border-green-400 
+                       text-green-400 font-semibold text-sm flex items-center gap-2 ">
+          <img src="./assets/message.png" alt=""> Subscribe
+        </button>
+      </div>
+
+    </div>
+  </div>
+  </section>
+</main>
 
     
 </body>
